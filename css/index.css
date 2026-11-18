@@ -1,0 +1,130 @@
+/* Page basics */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #0a0f0a;
+  color: #d1e7d1;
+  font-family: "JetBrains Mono", "Courier New", monospace;
+  line-height: 1.6;
+}
+
+/* Sticky navigation */
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #050805;
+  border-bottom: 2px solid #22c55e;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 14px;
+}
+
+nav a {
+  color: #d1e7d1;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #22c55e;
+}
+
+/* Name at the top */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #22c55e;
+  letter-spacing: 2px;
+  margin: 48px 0 16px;
+}
+
+/* Section headings */
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #86efac;
+  border-bottom: 1px solid #1f3a1f;
+  padding-bottom: 6px;
+}
+
+/* Spacing between sections */
+section {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+/* Alignment change for one section */
+#About {
+  text-align: center;
+}
+
+/* Experience: styled blocks with Flexbox rows */
+#Experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+#Experience li {
+  background-color: #111a11;
+  border-left: 4px solid #22c55e;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.job-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.dates {
+  color: #7fa37f;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+#Experience p {
+  margin: 8px 0 0;
+}
+
+/* Connect: Flexbox buttons */
+#Connect ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#Connect a {
+  display: inline-block;
+  padding: 10px 24px;
+  border: 2px solid #22c55e;
+  border-radius: 999px;
+  color: #22c55e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#Connect a:hover {
+  background-color: #22c55e;
+  color: #0a0f0a;
+}
